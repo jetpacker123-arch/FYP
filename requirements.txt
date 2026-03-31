@@ -1,1 +1,9 @@
-
+streamlit
+pandas
+numpy
+scikit-learn
+plotly
+requests
+folium
+streamlit-folium
+openpyxl

@@ -49,7 +49,7 @@ with col_map:
 with col_input:
     st.header("📋 Analysis Controls")
     st.info(f"Selected: {st.session_state.lat:.4f}N, {st.session_state.lon:.4f}E")
-    uploaded_file = st.file_uploader("Upload Historical ElectricityConsumption Data", type=["xlsx"])
+    uploaded_file = st.file_uploader("Upload Historical Electricity Consumption Data", type=["xlsx"])
 
 if uploaded_file:
     df = pd.read_excel(uploaded_file)
